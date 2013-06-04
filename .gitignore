@@ -1,6 +1,6 @@
 cookbooks_archives*
 tmp*
 *.DS_Store
-Vagrantfile
 vagrantboxes*
 .vagrant
+.idea

@@ -1,4 +1,32 @@
-## 0.6.9 (unreleased)
+## 0.7.1 (unreleased)
+
+
+## 0.7.0 (November 21, 2012)
+
+### Bug Fixes
+
+* Issue [#14](https://github.com/fnichol/chef-rbenv/pull/14): Create /etc/profile.d on system-wide and add note for Mac. ([@fnichol][])
+
+### New features
+
+* Pull request [#20](https://github.com/fnichol/chef-rbenv/pull/20): Set an attribute to create profile.d for user install. ([@jtimberman][])
+
+### Improvements
+
+* Pull request [#12](https://github.com/fnichol/chef-rbenv/pull/12): Add name attribute to metadata. ([@jtimberman][])
+* Update foodcritic configuration and update .travis.yml. ([@fnichol][])
+* Update Installation section of README (welcome Berkshelf). ([@fnichol][])
+
+
+## 0.6.10 (May 18, 2012)
+
+### New features
+
+* Pull request [#11](https://github.com/fnichol/chef-rbenv/pull/11): Add FreeBSD support. ([@jssjr][])
+
+### Improvements
+
+* Add other platform supports in metadata.rb and README. ([@fnichol][])
 
 
 ## 0.6.8 (May 6, 2012)
@@ -57,6 +85,8 @@ The initial release.
 
 [@fnichol]: https://github.com/fnichol
 [@jdsiegel]: https://github.com/jdsiegel
+[@jssjr]: https://github.com/jssjr
+[@jtimberman]: https://github.com/jtimberman
 [@hedgehog]: https://github.com/hedgehog
 [@magnetised]: https://github.com/magnetised
 [@thoughtless]: https://github.com/thoughtless
