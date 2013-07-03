@@ -6,7 +6,7 @@ Vagrant::Config.run do |config|
 
   # Using hostonly network. You can change this if it doesn't fit your environment
   # (no reason it shouldn't).
-  config.vm.network :hostonly, "10.0.0.100"
+  config.vm.network :hostonly, "192.168.2.101"
 
 
   # Seems to fix [issue #455](https://github.com/mitchellh/vagrant/issues/455)
@@ -16,9 +16,7 @@ Vagrant::Config.run do |config|
   # Enables NFS shared folders to improve performance 
   config.vm.share_folder("v-root", "code", "../", :nfs => true)
 
-  config.vm.forward_port 3000, 3000
-  config.vm.forward_port 3001, 3001
-  config.vm.forward_port 80, 8000
+  config.vm.forward_port 3000, 3000 #PDP service port in DEV mode
 
   # Enables provisioning with chef solo.
   config.vm.provision :chef_solo do |chef|

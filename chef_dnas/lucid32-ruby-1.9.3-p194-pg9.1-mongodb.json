@@ -6,6 +6,7 @@
     "recipe[ruby_stack]",
     "recipe[postgresql::apt_postgresql_ppa]",
     "recipe[postgresql_server_utf8]",
+    "recipe[mongodb::10gen_repo]",
     "recipe[mongodb]"
   ],
   
